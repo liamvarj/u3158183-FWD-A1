@@ -5,48 +5,63 @@
     <head>
         <meta charset="utf-8" />
         <!--title of the page-->
-        <title> index </title>
+        <title> TTA </title>
+        <link rel="stylesheet" href="assets/css/styles.css" >
     </head>
+    
+    
+    
+    
+    
     
     
     <body>
         <!-- header wrapper for content placement, useful for CSS-->
-        <div class="header-wrapper">
-            <!--header for content organisation-->
-            <header>
-            <h1 id="page-title"> The Tocumwal Archive</h1>
-                <!--navigation elements-->
-                <nav>
-                    <ul>
-                        <!-- link to external site-->
-                        <li> <a href="https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive">Click here </a>  to view the ACT Heritage Library Manuscript Collection of the Tocumwal Archives </li>
-                        <!-- internal page navigation-->
-                        <li><a href="#heritage">Heritage listing</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+            <div class="header-wrapper">
+                <!--header for content organisation-->
+                <header>
+                    <h1 id="topofpage"> The Tocumwal Archive</h1>
+                        <!-- all navigations items, internal and external should be stored within the nav tags-->
+                        <nav>
+                            <ul>
+                                <!-- internal page navigation-->
+                                <li><a href="#info">Heritage listing</a></li>
+                                <li> <a href="#footer"> Bottom of page</a></li>
+                                <li> Assorted other navigation options to be created later</li>
+                                <!-- link to external site using URL-->
+                                <li> <a href="https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive">Click here </a>  to view the ACT Heritage Library Manuscript Collection of the Tocumwal Archives </li>
+                            </ul>
+                        </nav>
+                </header>
+            </div>
 
-        <!-- main wrapper for content organisation-->    
+        
+        
+        
+        
+        
+        
+        <!-- main wrapper will allow for easier content styling with CSS-->    
         <div class="main-wrapper">    
-            <!-- main tag for unique content-->
-            <main>
-                <article id="heritage">
+                <!-- main tag for content that is unique to this page/rest of site -->
+                <main id="info">
+                    <!-- heading tag differentiates headings from content -->
                     <h2> Heritage Listing </h2>
+                    <!-- paragraph tag is the main method for displaying text, the strong tag shows the text as bolded -->
                     <p>
-                    The Tocumwal Housing Precinct in O'Connor is significant as an outstanding example of low cost pre-fabricated housing, which was constructed in Canberra after World War 2.
+                    <strong>The Tocumwal Housing Precinct in O'Connor is significant as an outstanding example of low cost pre-fabricated housing, which was constructed in Canberra after World War 2. </strong>
                     As part of the Government's solution to the critical housing shortage being experienced in Canberra at the time, many of the houses originally constructed at Tocumwal in NSW for the US Army Air Corps were re-erected in the ACT. The cottages are of distinctive design types and limited geographically to the O'Connor Precinct and a small area in Ainslie.
                     The Precinct remains the most intact example of this style of housing and is unique in Canberra for its urban planning, landscaping and social history. </p>
-
-                    <!-- image tag to display pictures with alt tag in case image doesn't display-->    
-                    <img src="assets/images/tocumwal-misc-1.jpg" alt="Derelict house at 1 Lord St, O'Connor. ACT HL"> 
+                    
                     <p>The eight culs de sac evident in the precinct share access onto a community recreation area with the individual identity of each street reinforced by the street plantings. Many of the cottages retain their original hedge plantings. The 'precinctual' planning is thus significant.
                     The sense of cohesion of the streetscapes within the Precinct is achieved by the repetition of features in the housing stock, and the integration of this with unifying street plantings and hedges. It creates an area of high aesthetic value.
+                    <!--Line breaks starts next text on a new line to create spacing in HTML -->    
                     <br/>
                     <br/>     
+                    <!-- emphasis shows text in italics-->    
                     <em>Features Intrinsic To The Heritage Significance Of The Place
                     The place comprises:</em></p>
-                    <!-- order list for displaying content -->
+                    <!-- ordered list shows content numbered and in a list format  -->
                     <ol>
                         <li>a) the extant ‘Tocumwal’ houses on blocks identified in Figure 43 (affected properties listed in
                         Schedule 1);</li>
@@ -54,18 +69,28 @@
                         <li>c) the road layout including the culs de sac and their streetscapes; </li>
                         <li>d) the public open spaces contained within the Precinct.</li>
                     </ol>
-                </article>
-            </main>
+
+                    <!-- image tag to display pictures with alt tag in case image doesn't display-->    
+                    <img src="assets/images/tocumwal-misc-1.jpg" alt="Derelict house at 1 Lord St, O'Connor. ACT HL"> 
+                 
+                </main>
         </div>
         
-        <!-- Footer wrapper for content origination -->
+        
+        
+        
+        
+        <!-- Footer wrapper for targeting with CSS -->
         <div class="footer-wrapper">    
-            <!-- Footer tag for placement of content at bottom of page -->
-            <footer>
-                <a href="#top"> <p> back to top</p></a>
-                <p> Created by u3158183 - Liam Varjavandi </p>
+            <!-- Footer tag for placement of content under the main page -->
+            <footer id="footer">
+                <a href="#topofpage"> <p> return to header</p></a>
+                <p> u3158183 - Liam Varjavandi </p>
             </footer>
         </div>
+        
+        
+        
         
     </body>  
 </html>
